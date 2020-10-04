@@ -33,17 +33,17 @@
 }
 
 .carousel-image-1 {
-  background: url('../img/agriculture1.jpg');
+  background: url('../img/agriculture.jpg');
   background-size: cover;
 }
 
 .carousel-image-2 {
-  background: url('../img/mcb1.jpg');
+  background: url('../img/mcb.jpg');
   background-size: cover;
 }
 
 .carousel-image-3 {
-  background: url('../img/Plumbing-.jpg');
+  background: url('../img/plumbing.jpg');
   background-size: cover;
 }
 #contact{
