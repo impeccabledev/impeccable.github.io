@@ -115,7 +115,15 @@ border-radius: 10px;
 
 #aboutus h4{
   color:darkred;
+  margin-bottom: 20px;
 }
 #aboutus .secondarytext{
   color: #348813;
+}
+
+.aboutsection img{
+  margin: 20px;
+  padding: 10px;
+  width: 180px;
+  height: 180px;
 }
