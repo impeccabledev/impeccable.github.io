@@ -1,11 +1,16 @@
-
+body{
+  
+font-family: 'Sansita Swashed', cursive;
+font-size: 100px;
+}
 
 #navbar{
   background-color: white;
+  
 }
 #navbar .navbar-brand
 {
- color: red;
+ color: crimson;
 }
 #navbar ul li a {
   color:  black;
@@ -86,10 +91,11 @@
   color: #333;
   border-radius: 5px;
   text-decoration: none;
+  
 }
 
 
-
-
-
+#aboutus .secondarytext{
+  color: #348813;
+}
 
