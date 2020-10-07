@@ -1,127 +1,109 @@
-body, body *{
-/* font-family: 'Sansita Swashed', cursive; */
-font-family: 'Roboto Condensed', sans-serif;
-/* font-family: 'Teko', sans-serif; */
-/* font-family: 'Coda', cursive; */
-font-size: 15px;
-
-}
-
-#navbar{
-  /* background-color: white; */
-  background-color: white;
+body,
+body * {
   /* font-family: 'Sansita Swashed', cursive; */
-  
+  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: 'Teko', sans-serif; */
+  /* font-family: 'Coda', cursive; */
+  font-size: 15px;
 }
-#navbar .navbar-brand
-{
- color: crimson;
- font-size: 23px;
+
+#navbar {
+  background-color: white;
+}
+#navbar .navbar-brand {
+  color: crimson;
+  font-size: 23px;
 }
 #navbar ul li a {
-  color:  black;
- text-decoration: none;
+  color: black;
+  text-decoration: none;
+  padding: 2px;
 }
-#navbar .navbar-brand img
-{
-  
- height: 50px;
- width: 65px;
+#navbar .navbar-brand img {
+  height: 50px;
+  width: 65px;
   margin-right: -25px;
- 
 }
 
 #navbar ul li a:hover {
-  color: #649F0E;
+  color: #649f0e;
   color: crimson;
   border-radius: 5px;
   text-decoration: none;
+  border-top: solid crimson;
+  border-bottom: solid crimson;
 }
-
-
 
 .carousel-item {
   height: 400px;
 }
 
 .carousel-image-1 {
-  background: url('../img/agriculture.jpg');
+  background: url("../img/agriculture.jpg");
   background-size: cover;
 }
 
 .carousel-image-2 {
-  background: url('../img/mcb.jpg');
+  background: url("../img/mcb.jpg");
   background-size: cover;
 }
 
 .carousel-image-3 {
-  background: url('../img/plumbing.jpg');
+  background: url("../img/plumbing.jpg");
   background-size: cover;
 }
-#contact{
- display: flex;
+#contact {
+  display: flex;
 }
 
-
-#contact .address{
-  /* display: flex;   */
+#contact .address {
   width: 33.33%;
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
   background-color: #9a98d9;
   background-color: darkolivegreen;
   color: #fff;
 }
 
-#contact .contactus{
-  
+#contact .contactus {
   width: 33.33%;
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-  /* color: darkblue; */
 }
 
-#contact .quicklinks{
-  
+#contact .quicklinks {
   width: 33.33%;
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
   background-color: #9a98d9;
   background-color: darkolivegreen;
   color: #fff;
-
-
 }
 #contact .quicklinks ul li a {
-  color:  #fff;
- text-decoration: none;
- /* font-family: 'Roboto Condensed', sans-serif; */
- /* font-size: 12px; */
- font-weight: lighter;
- 
+  color: #fff;
+  text-decoration: none;
+
+  font-weight: lighter;
 }
 
 #contact .quicklinks ul li a:hover {
   color: #333;
-  /* border-radius: 5px; */
+
   text-decoration: none;
-  
 }
 
-.aboutsection{
+.aboutsection {
   background-color: #c9cad4;
   color: black;
-margin: 10px;
-border-radius: 10px;
-  
+  margin: 10px;
+  border-radius: 10px;
 }
 
-#aboutus h4{
-  color:darkred;
+#aboutus h4 {
+  color: darkred;
   margin-bottom: 20px;
 }
-#aboutus .secondarytext{
+#aboutus .secondarytext {
   color: #348813;
 }
 
-.aboutsection img{
+.aboutsection img {
   margin: 20px;
   padding: 10px;
   width: 180px;
