@@ -7,17 +7,40 @@ body * {
   font-size: 15px;
 }
 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromRight {
+  0% {
+    transform: translateY(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 #navbar {
   background-color: white;
 }
 #navbar .navbar-brand {
   color: crimson;
   font-size: 23px;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
 }
+
 #navbar ul li a {
   color: black;
   text-decoration: none;
   padding: 2px;
+}
+
+#navbar ul {
+  animation: 1s ease-out 0.5s 1 slideInFromRight;
 }
 #navbar .navbar-brand img {
   height: 50px;
