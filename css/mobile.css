@@ -21,11 +21,5 @@
 
   .carousel-item {
     height: 250px;
-  }
-}
-
-@media (max-width: 364px) {
-  #navbar .navbar-brand img {
-    display: none;
-  }
+  }  
 }

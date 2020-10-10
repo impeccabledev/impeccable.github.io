@@ -1,25 +1,22 @@
-@media(max-width: 1023px) {
-
-#contact div:last-child {
+@media (max-width: 1023px) {
+  #contact div:last-child {
     display: none;
   }
 
-  #contact .address{
+  #contact .address {
     width: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background-color: #9a98d9;
     background-color: darkolivegreen;
     color: #fff;
   }
-  
-  #contact .contactus{
+
+  #contact .contactus {
     width: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
-  
+
   .carousel-item {
     height: 350px;
   }
-  
-
 }
