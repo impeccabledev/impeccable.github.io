@@ -1,9 +1,9 @@
 @media (max-width: 1023px) {
-  .centered {
+ .centered {
     position: absolute;
-    top: -50%;
-    left: 50%;
-    transform: translate(-80%,-80%);
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%,-50%);
     color: white;
     font-size: 30px;
     text-align: left;
