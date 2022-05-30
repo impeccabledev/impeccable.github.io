@@ -1,0 +1,18 @@
+@media (max-width: 750px) {
+  .centered {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: fit-content;
+}
+.footer.content{
+  align-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+}
