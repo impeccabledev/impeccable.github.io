@@ -1,0 +1,27 @@
+@media (max-width: 1023px) {
+  
+    
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%,-80%);
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer.content{
+  align-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  
+}
+.vl {
+  border-left: 6px solid rgba(47,103,56,255)  ;
+  height: 75px;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+} 
