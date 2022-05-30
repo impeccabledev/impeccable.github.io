@@ -7,7 +7,8 @@
     color: white;
     font-size: 20px;
     text-align: center;
-    width: fit-content;
+    font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .footer.content{
   align-content: center;
