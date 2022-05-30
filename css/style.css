@@ -13,7 +13,8 @@ body{
     color: white;
     font-size: 50px;
     text-align: center;
-    width: fit-content;
+    font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #detail{
     background-color: burlywood;
